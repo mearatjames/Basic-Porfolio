@@ -1,0 +1,201 @@
+body {
+    background-color: white;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    grid-column: 4/5;
+    grid-row: 1/2;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 1px;
+    background-color: rgb(26, 25, 25)
+}
+
+li {
+    text-align: center;
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+    color: whitesmoke
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 120px 2fr 2fr 1fr;
+    /* grid-template-rows: 50px 60px auto; */
+    grid-column-gap: 0;
+    grid-row-gap: 10px;
+    margin: 0 0 110px 0;
+}
+
+#mearat {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-color: rgb(63, 62, 62);
+    color: whitesmoke;
+    padding-top: 15px;
+    margin-bottom: 2px solid rgb(36, 92, 156);
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 4px solid grey;
+}
+
+#home {
+    text-decoration: none;
+    background-color: rgb(63, 62, 62);
+    color: whitesmoke;
+    padding-top: 20px;
+}
+
+.aboutme {
+    grid-column: 2/5;
+    grid-row: 2/3;
+    text-align: left;
+    font-size: 20px;
+}
+
+.content {
+    grid-column: 2/5;
+    grid-row: 4/5;
+    text-align: left;
+    background-color: rgb(238, 238, 238);
+}
+
+.hangman {
+    grid-column: 2/5;
+    grid-row: 4/5;
+    text-align: left;
+    background-color: rgb(238, 238, 238);
+    font-size: 60px;
+    align-content: center;
+    text-align: center;
+    padding: 15px;
+}
+
+.rpggame {
+    grid-column: 2/5;
+    grid-row: 5/6;
+    text-align: left;
+    background-color: rgb(238, 238, 238);
+    font-size: 60px;
+    align-content: center;
+    text-align: center;
+    padding: 15px;
+}
+
+.triviagame {
+    grid-column: 2/5;
+    grid-row: 6/7;
+    text-align: left;
+    background-color: rgb(238, 238, 238);
+    font-size: 60px;
+    align-content: center;
+    text-align: center;
+    padding: 15px;
+}
+
+.rutgersinfowidget {
+    grid-column: 2/5;
+    grid-row: 7/8;
+    text-align: left;
+    background-color: rgb(238, 238, 238);
+    font-size: 60px;
+    align-content: center;
+    text-align: center;
+    padding: 15px;
+}
+
+.rockpaperscissors {
+    grid-column: 2/5;
+    grid-row: 8/9;
+    text-align: left;
+    background-color: rgb(238, 238, 238);
+    font-size: 60px;
+    align-content: center;
+    text-align: center;
+    padding: 15px;
+}
+
+.contact {
+    grid-column: 2/5;
+    grid-row: 2/3;
+    text-align: left;
+    font-size: 20px;
+}
+
+.portfolio {
+    grid-column: 2/5;
+    grid-row: 2/3;
+    text-align: left;
+    font-size: 20px;
+}
+
+form {
+    grid-column: 2/5;
+    grid-row: 4/5;
+    background-color: rgb(238, 238, 238);
+    padding: 20px;
+}
+
+.frontnav {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color: rgb(26, 25, 25);
+}
+
+.middlenav {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    background-color: rgb(26, 25, 25);
+}
+
+.endnav {
+    grid-column: 5/6;
+    grid-row: 1/2;
+    background-color: rgb(26, 25, 25);
+}
+
+a:hover { 
+    color:grey;
+}
+
+h1 {
+    margin: 0;
+    padding: 5px;
+}
+
+img {
+    margin-right: 5px;
+}
+
+p {
+    font-size: 22px;
+    margin: 20px;
+}
+
+#footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 30px;
+    background-color: rgb(238, 238, 238);
+    text-align: center;
+    border-top: 1px solid rgb(168, 165, 165);
+    font-size: 12px;
+}
+
+#aboutmephoto {
+    margin: 20px;
+}
