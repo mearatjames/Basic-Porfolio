@@ -35,7 +35,7 @@ li a {
     grid-template-columns: 1fr 120px 2fr 2fr 1fr;
     /* grid-template-rows: 50px 60px auto; */
     grid-column-gap: 0;
-    grid-row-gap: 10px;
+    grid-row-gap: 15px;
     margin: 0 0 110px 0;
 }
 
@@ -71,6 +71,7 @@ li a {
     grid-row: 4/5;
     text-align: left;
     background-color: rgb(238, 238, 238);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .hangman {
@@ -82,6 +83,7 @@ li a {
     align-content: center;
     text-align: center;
     padding: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .rpggame {
@@ -93,6 +95,7 @@ li a {
     align-content: center;
     text-align: center;
     padding: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .triviagame {
@@ -104,6 +107,7 @@ li a {
     align-content: center;
     text-align: center;
     padding: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .rutgersinfowidget {
@@ -115,6 +119,7 @@ li a {
     align-content: center;
     text-align: center;
     padding: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .rockpaperscissors {
@@ -126,6 +131,7 @@ li a {
     align-content: center;
     text-align: center;
     padding: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .contact {
@@ -147,6 +153,7 @@ form {
     grid-row: 4/5;
     background-color: rgb(238, 238, 238);
     padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .frontnav {
